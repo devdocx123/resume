@@ -1,0 +1,262 @@
+body
+{
+    margin:0;
+    text-align: center;   /*center everything whom width is not set*/
+    font-family: "Merriweather",serif;
+    color: #40514E;
+.heading
+{
+   padding-top: 100px;
+    background-color:#E4F9F5 ;
+    position: relative;
+    padding-bottom: 0px;
+    height:540px;
+    
+
+}
+.middle-container
+{
+   margin: 50px 0 50px 0;
+    background-color: white;
+}
+.middle_2
+{
+   margin: 0;
+    background-color: white;
+}
+.bottom-container
+{
+  margin: 100px 0;
+}
+h1{
+    /* if we have to make 40 pixel through rem
+    so 
+    1em = 16 px
+    40/16=2.5rem
+    sopx=2.5rem
+    */
+   /* line-height: 2; */  /*normal height =1*/
+
+    font-size: 5.625rem;  /* 1em=16px*/
+    margin:   0 ;
+    
+    font-family: "Sacramento", cursive;
+    /*
+    width:10px;
+    */
+   /* margin: 0 auto 0 auto;*/ /* top , left , bottom, right*/
+
+   color:#66BFBF;
+   margin-top: 5px;
+   
+}
+h2
+{
+    margin:0;
+    font-family:' Montserrat',sans-serif;
+    font-size: 2.1rem;
+   color:#66BFBF;
+   
+    
+}
+
+h3
+{
+     margin:0;
+    font-family:' Montserrat',sans-serif;
+    font-size: 1.625rem;
+    color: #11999E;
+    font-weight: normal;
+}
+p {
+    line-height: 2;
+
+}
+hr{
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+a{
+    margin: 10px 10px;
+}
+a:hover{
+    color: #EAF6F6;
+}
+.bottomcloud
+{
+    position: absolute;
+    left: 300px;
+    top:200px;
+    
+}
+.topcloud
+{
+    position:absolute;
+  right: 350px;
+   top: 50px;
+}
+.write
+{
+    height: 210px;
+}
+
+.mountain
+{
+    
+    position: relative;
+    bottom: 100px;
+    height: 550px;
+    width:800px;
+}
+
+.skill-row
+{
+    width: 50%;
+    text-align: left;
+      
+      margin:100px 300px 100px auto;
+    
+}
+.education
+{
+    width: 50%;
+    text-align: left;
+    
+    margin: 100px auto 100px auto;
+}
+.pic
+{
+    height:250;
+    width: 250px;
+    padding: 30px;
+}
+.intp
+{
+    width: 500px;
+    text-align: left;
+    margin: 30px auto 0 auto;
+}
+.lash
+{
+    margin: 40px auto 40px;
+}
+.lasp
+{
+    width: 500px;
+    text-align: left;
+    margin:  40px auto 40px;
+}
+.skillspe
+{
+    margin: 10px 0 10px 0;
+}
+.wp
+{
+    height:150px;
+    width: 150px;
+    float: left;
+    /* NOTE:only use float for wrapping text with image and for image movement prefer to use
+    relative,absolute positioning */
+    margin-right: 30px;
+    /*we can simply clear the paragraph of any image from its left or right side to bottom by naming the paragraph a 
+    separate class anf then 
+    simply writing a css code
+       clear:left or right;
+       and its done*/
+
+}
+.msw
+{
+    height:150px;
+    width: 150px;
+    float: right;
+    margin-left: 30px;
+    border-radius: 0%;
+}
+
+.matric
+{
+    height:150px;
+    width: 150px;
+    float: left;
+    margin-right: 30px;
+}
+.inter{
+
+    height:150px;
+    width: 150px;
+    float: right;
+    margin-left: 30px;
+
+    
+}
+.bach
+{
+    height:150px;
+    width: 150px;
+    float: left;
+    margin-right: 30px;
+
+}
+
+.bottom-container
+{
+    background-color:white ;
+}
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+  .bottom-down
+  {
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+  }
+  .linked
+{
+    width:25px;
+    height: 25px;
+}
+.insta
+{
+    width: 25px;
+    height: 25px;
+}
+.email
+{
+    width: 25px;
+    height: 25px;
+}
+
+.copyright{
+    color: #EAF6F6;
+    font-size: .75rem;
+    padding: 20px 0;
+}
+
+
+}

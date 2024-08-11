@@ -1,0 +1,81 @@
+body{
+
+    /*margin before is on the top of text
+      margin after is at the bottom
+      margin left on the left
+      margin right on the right*/
+      
+      margin: 0;
+}
+
+/* h1{
+    margin-top: 0;
+}
+
+/*Learning different positioning of the objects: i.e. static,relative,absolute*/
+/*
+in relative postitioning the flow of others object is not disturbed.
+in absolute  pos the flow disturbs but easy to design or move object on screen*/
+ /*fixed position help us to make anything at a specific position even remains at that position
+     during scrolling.*/
+.container
+{
+    /*here relative and absolute positiones are used together to design */
+    position: relative;
+    height: 600px;
+    width: 600px;
+    background-color: aqua;
+}
+.top{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    /*Relative positioning
+   
+   
+    position:relative;
+    left:400px;
+    */
+
+    /*display:inline-block;    can also be used to position block in one horizontal line*/
+   
+
+    position:absolute;
+    left:400px;
+    top:400px;
+
+}
+.mid{
+    
+     height: 200px;
+     width: 200px;
+     background-color: blue;
+     /*Relative positioning
+   
+     position:relative;
+     left:0;
+     bottom:200px;
+     */
+
+     position:absolute;
+     left:200px;
+     top:200px;
+}
+.last{
+
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    /*Relative positioning
+   
+    position:relative;
+    left:200px;
+    bottom:400px;
+    */
+   /* position:absolute;*/
+   position: fixed;
+   top:0px;
+  
+
+
+} 
